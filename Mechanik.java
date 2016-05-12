@@ -45,7 +45,7 @@ public class Mechanik {
     }
     boolean guthabenCheck(){
         
-        if (guthaben < 0) {
+        if (guthaben < 1) {
             System.out.println("\nSie sind pleite! Starten Sie das Spiel neu, falls Sie Ihr Glück noch mal versuchen wollen.");
             lose = true;
         }
